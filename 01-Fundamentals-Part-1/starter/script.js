@@ -57,20 +57,59 @@ console.log(ageWatson > 18);
 
 // console.log();
 
-const firstName = 'Xia';
-const job = 'interior designer';
-const birthYear = 1995;
-const year = 2022;
+// const firstName = 'Xia';
+// const job = 'interior designer';
+// const birthYear = 1995;
+// const year = 2022;
 
-const Watson = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job;
+// const Watson = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job;
 
-console.log(Watson);
+// console.log(Watson);
 
-const watsonNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
-console.log(watsonNew);
+// const watsonNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(watsonNew);
 
-console.log(`just a simple string`);
+// console.log(`just a simple string`);
 
-console.log(`String
-multiple
-lines`);
+// console.log(`String
+// multiple
+// lines`);
+
+// const age = 27;
+// const isOldEnough = age >= 18;
+
+// if (isOldEnough) {
+//   console.log('Watson can start driving license😊');
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Watson is too young. ${yearsLeft} years later, he can start driving license`);
+// }
+
+// const inputYear = '1995';
+// console.log(Number(inputYear) + 18);
+// console.log(inputYear + 18);
+
+// console.log('10' - '5' - 2 + '3');
+
+// let a = '';
+// console.log(a, a.length, Boolean(a));
+
+// let food = prompt('xixihaha');
+// console.log(food);
+// console.log(typeof food);
+
+// food = Number(food);
+// console.log(food);
+// console.log(typeof food);
+
+// const chu = true;
+// const fosi = false;
+
+// console.log(chu && fosi);
+// console.log(chu || fosi);
+// console.log(!chu || fosi);
+
+const age = 105;
+const person = age > 50 ? (age > 100 ? 'veryold' : 'old') : 'young';
+
+console.log(person);
