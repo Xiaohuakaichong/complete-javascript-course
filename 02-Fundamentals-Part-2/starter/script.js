@@ -102,21 +102,141 @@
 
 // console.log(calcAge(years));
 
-const friends = ['Chun', 'Xia', 'Qiu', 'Dong'];
+// const friends = ['Chun', 'Xia', 'Qiu', 'Dong'];
 
-const newLength = friends.push('siJi');
+// const newLength = friends.push('siJi');
 
-console.log(friends);
-console.log(newLength);
+// console.log(friends);
+// console.log(newLength);
 
-friends.unshift('Start');
-console.log(friends);
+// friends.unshift('Start');
+// console.log(friends);
 
-friends.pop();
-console.log(friends);
-const shiftted = friends.shift();
-console.log(shiftted);
-console.log(friends);
+// friends.pop();
+// console.log(friends);
+// const shiftted = friends.shift();
+// console.log(shiftted);
+// console.log(friends);
 
-console.log(friends.includes('Chun'));
-console.log(friends.indexOf('Xia'));
+// console.log(friends.includes('Chun'));
+// console.log(friends.indexOf('Xia'));
+
+// const watson = {
+//   firstName: 'Xia',
+//   lastName: 'Hua',
+//   age: 2022 - 1995,
+//   job: 'designer',
+//   friends: ['1', '2', '3'],
+// };
+
+// console.log(watson);
+
+// console.log(watson.lastName);
+
+// const nameKey = 'Name';
+// console.log(watson['first' + nameKey]);
+// console.log(watson['last' + nameKey]);
+
+// const input = prompt('123');
+
+// watson[input] ? console.log(watson[input]) : console.log(`The value is not exist`);
+
+// watson.location = 'Shaoxing';
+// console.log(watson);
+// console.log(this);
+// const watson = {
+//   firstName: 'Xia',
+//   lastName: 'Hua',
+//   birthYear: 1995,
+//   job: 'designer',
+//   friends: ['1', '2', '3'],
+//   hasDriversLicense: true,
+//   // calcAge: function () {
+//   //   return 2022 - this.birthYear;
+//   // },
+//   calcAge: function () {
+//     this.age = 2022 - this.birthYear;
+//     return this.age;
+//   },
+//   driveLicense: function () {
+//     if (this.hasDriversLicense) {
+//       return `a`;
+//     } else {
+//       return `no`;
+//     }
+//   },
+
+//   calcAge2: () => {
+//     this.age = 2022 - this.birthYear;
+//     console.log(this);
+//   },
+// };
+
+// console.log(watson['calcAge'](1995));
+// console.log(watson.calcAge2());
+
+// console.log(watson.age);
+
+// console.log(
+//   `${watson.firstName} is a ${watson.calcAge()} years old ${watson.job}, and he has ${
+//     watson.hasDriversLicense ? `a` : `no`
+//   } driver's license. `
+// );
+
+// const jack = {
+//   firstName: 'Xia',
+//   lastName: 'Hua',
+//   birthYear: 1985,
+//   job: 'designer',
+//   friends: ['1', '2', '3'],
+//   hasDriversLicense: true,
+// };
+
+// jack.calcAge = watson.calcAge;
+// console.log(jack.calcAge());
+
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`Lifting weights reptition ${rep} `);
+// }
+
+// const jonasArray = [
+//   'Jonas',
+//   'Schmedtmann',
+//   2037 - 1991,
+//   'teacher',
+//   ['Michael', 'Peter', 'Steven'],
+//   true,
+// ];
+
+// const types = [];
+
+// for (let i = 0; i < jonasArray.length; i++) {
+//   console.log(jonasArray[i], typeof jonasArray[i]);
+//   types[i] = typeof jonasArray[i];
+// }
+
+// console.log(types);
+
+// const years = [1991, 2007, 1969, 2020];
+// const age = [];
+
+// for (let i = 0; i < years.length; i++) {
+//   age.push(2022 - years[i]);
+// }
+// console.log(age);
+
+const jonasArray = [
+  'Jonas',
+  'Schmedtmann',
+  2022 - 1995,
+  'teacher',
+  ['Michael', 'Peter', 'Steven'],
+  true,
+];
+
+console.log('ONLY STRINGS');
+
+for (let i = 0; i < jonasArray.length; i++) {
+  if (typeof jonasArray[i] !== 'string') continue;
+  console.log(jonasArray[i], typeof jonasArray[i]);
+}
