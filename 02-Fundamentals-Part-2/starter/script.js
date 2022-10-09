@@ -225,18 +225,28 @@
 // }
 // console.log(age);
 
-const jonasArray = [
-  'Jonas',
-  'Schmedtmann',
-  2022 - 1995,
-  'teacher',
-  ['Michael', 'Peter', 'Steven'],
-  true,
-];
+// const jonasArray = [
+//   'Jonas',
+//   'Schmedtmann',
+//   2022 - 1995,
+//   'teacher',
+//   ['Michael', 'Peter', 'Steven'],
+//   true,
+// ];
 
-console.log('ONLY STRINGS');
+// console.log('ONLY STRINGS');
 
-for (let i = 0; i < jonasArray.length; i++) {
-  if (typeof jonasArray[i] !== 'string') continue;
-  console.log(jonasArray[i], typeof jonasArray[i]);
-}
+// for (let i = 0; i < jonasArray.length; i++) {
+//   if (typeof jonasArray[i] !== 'string') continue;
+//   console.log(jonasArray[i], typeof jonasArray[i]);
+// }
+
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`Lifting weights repetition ${rep}`);
+// }
+
+// let rep = 1;
+// while (rep <= 10) {
+//   console.log(`WHILE:${rep}`);
+//   rep++;
+// }
